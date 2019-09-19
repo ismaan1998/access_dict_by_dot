@@ -3,7 +3,6 @@ Using this package, we can access the items in a dictionary using dot operator i
 
 ## for example
 
-`
 from access_dict_by_dot import AccessDictByDot
 
 dictionary = {
@@ -40,7 +39,7 @@ print(d.key3.subkey1)
 
 
 
-`
+
 
 
 
