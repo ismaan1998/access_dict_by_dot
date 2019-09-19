@@ -7,33 +7,23 @@ from access_dict_by_dot import AccessDictByDot
 
 dictionary = {
 
-
     'key1':'value1',
     
-    
     'key2':'value2',
-    
-    
+   
     'key3':{
     
-    
-                'subkey1':'subvalue1',
-                
+                'subkey1':'subvalue1',                
                 
                 'subkey2':'subvalue2'
-                
-                
+                             
             }
-            
-            
+                      
 }
-
 
 d = AccessDictByDot.load(dictionary)
 
-
 print(d.key1)
-
 
 print(d.key3.subkey1)
 
